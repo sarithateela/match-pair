@@ -1,23 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="../../logo.svg" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container text-center relative">
-      <div class="game game-front grid"></div>
-      <div class="game game-back grid"></div>
-      <h2>Attempts: <output>0</output></h2>
-
-      <button class="btn btn-primary restart">Restart</button>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Pair</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">MATCH PAIR</h1>
+            <p>Attempts: 0</p> <br>
+        <div class="cards">
+            <div class="card" fruit="grapes">
+                <img src="./Fruits/grapes.png" alt="">
+            </div>
+            <div class="card" fruit="mango">
+                <img src="./Fruits/mango.png" alt="">
+            </div>
+            <div class="card" fruit="orange">
+                <img src="./Fruits/orange-juice.png" alt="">
+            </div>
+            <div class="card" fruit="pineapple">
+                <img src="./Fruits/pineapple.png" alt="">
+            </div>
+            <div class="card" fruit="pomegranate">
+                <img src="./Fruits/pomegranate.png" alt="">
+            </div>
+            <div class="card" fruit="rasberry">
+                <img src="./Fruits/rasberry.png" alt="">
+            </div>
+            <div class="card" fruit="strawberry">
+                <img src="./Fruits/strawberry.png" alt="">
+            </div>
+            <div class="card" fruit="watermelon">
+                <img src="./Fruits/watermelon.png" alt="">
+            </div>
+            <div class="card" fruit="grapes">
+                <img src="./Fruits/grapes.png" alt="">
+            </div>
+            <div class="card" fruit="mango">
+                <img src="./Fruits/mango.png" alt="">
+            </div>
+            <div class="card" fruit="orange">
+                <img src="./Fruits/orange-juice.png" alt="">
+            </div>
+            <div class="card" fruit="pineapple">
+                <img src="./Fruits/pineapple.png" alt="">
+            </div>
+            <div class="card" fruit="pomegranate">
+                <img src="./Fruits/pomegranate.png" alt="">
+            </div>
+            <div class="card" fruit="rasberry">
+                <img src="./Fruits/rasberry.png" alt="">
+            </div>
+            <div class="card" fruit="strawberry">
+                <img src="./Fruits/strawberry.png" alt="">
+            </div>
+            <div class="card" fruit="watermelon">
+                <img src="./Fruits/watermelon.png" alt="">
+            </div>
+        </div> <br>
+        <button id="btn">Restart</button>
     </div>
-     <script src="index.js" type="module"></script>
-    <script src="../../helpers/header.js" type="module"></script>
-  </body>
+
+    <script src="./script.js"></script>
+</body>
 </html>
